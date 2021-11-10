@@ -1,0 +1,93 @@
+:root{
+    --color-white: white;
+    --color-naranja: #FF7A00;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-size: 1rem;
+}
+
+body{
+    position: relative;
+    width: 100vw;
+}
+
+img,video{
+    width: 100%;
+    height: auto;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+h1{ font-size: 2rem; }
+
+h2{ font-size: 1.5rem; }
+
+h3{ 
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: #f1f1f1;
+}
+
+
+
+
+/*=========| Estilos General |=======*/
+
+/*
+39 - 41
+display: flex;
+justify-content: center;
+align-items: center;
+
+128                   162                   188
+margin-bottom: 8rem;  margin-bottom: 2rem;  margin-bottom: 5rem;
+padding-top: 1.5rem;  padding-top: 1.5rem;
+
+94
+padding-top: 60px; 
+
+194
+flex-wrap: nowrap;
+
+observados
+
+192 - 199
+
+345
+margin-top: 1rem;
+
+*/
